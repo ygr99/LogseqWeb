@@ -1,32 +1,33 @@
 @import url("https://cdn.jsdelivr.net/gh/pengx17/logseq-dev-theme@latest/custom.css");
 /* @import url("https://wangguanjingji.oss-cn-beijing.aliyuncs.com/picture/custom.css"); */
 
-
-@font-face {
-    font-family: "LXGW WenKai Screen";
-    font-style: normal;
-    font-weight: normal;
-    src: url(https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/LXGW-WenKai-Screen-Regular.woff2) format("woff2"),
-         url(https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/LXGW-WenKai-Screen-Regular.woff) format("woff");
-  }
-  
-  .genshin {
-    font-family: "LXGW WenKai Screen", sans-serif;
-  }
-  
-
-/* === 外部链接加图标 ====*/ 
+/* === 外部链接加图标 ====*/
 a.external-link {border-bottom: 0px;}
 a.external-link:after {
     display:inline-block;
     content:"";
     width: 21px;
     height:16px;
-    background: 
+    background:
         transparent
-        50% 200%/54% 
-        url('https://svgshare.com/i/SWJ.svg') no-repeat;        
+        50% 200%/54%
+        url('https://svgshare.com/i/SWJ.svg') no-repeat;
     filter: invert(3%) sepia(100%) saturate(1920%) hue-rotate(0deg) brightness(1419%) contrast(249%);
 }
 
-.bullet-container.bullet-closed { box-shadow: 0 0 0 4px var(--ls-block-bullet-border-color); }
+
+
+
+/* @font-face {
+    font-family: "LXGW WenKai Screen";
+    font-style: normal;
+    font-weight: normal;
+    src: url(https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/LXGW-WenKai-Screen-Regular.woff2) format("woff2"),
+         url(https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/LXGW-WenKai-Screen-Regular.woff) format("woff");
+  }
+
+  .genshin {
+    font-family: "LXGW WenKai Screen", sans-serif;
+  } */
+
+/* .bullet-container.bullet-closed { box-shadow: 0 0 0 4px var(--ls-block-bullet-border-color); } */
